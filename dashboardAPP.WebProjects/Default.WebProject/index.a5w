@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+
+
+<%a5
+Delete tmpl_DASHBOARDAPP
+DIM tmpl_DASHBOARDAPP as P
+tmpl_DASHBOARDAPP = a5w_load_component("dashboardApp") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:dashboardApp)
+
+'Override settings start -----------------------------------------
+with tmpl_DASHBOARDAPP
+.alias = "DASHBOARDAPP"
+_dialogFilename = "dashboardApp"
+end with 
+'Override settings end -----------------------------------------
+
+delete x_DASHBOARDAPP
+dim x_DASHBOARDAPP as p
+x_DASHBOARDAPP = a5w_run_Component(tmpl_DASHBOARDAPP) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:dashboardApp)
+
+?x_DASHBOARDAPP.Output.Head.JavaScript
+?x_DASHBOARDAPP.Output.Head.CSS_Link
+
+?x_DASHBOARDAPP.Output.Head.Title 
+%>
+
+
+<!--Alpha Five Temporary Code Start - Will be automatically removed when page is published -->
+<!--CSS for tmpl -->
+<link rel="stylesheet" type="text/css" href="file:///C:/Program Files (x86)/a5V12/css/iOS7/style.css">
+<!--Alpha Five Temporary Code End -->
+
+
+<meta name="generator" content="Alpha Anywhere HTML Editor Version 12 Build 4346-4889">
+<!-- must use in order to make XP Themes render -->
+<meta HTTP-EQUIV="MSThemeCompatible" content="Yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title></title>
+</head>
+
+<body class="iOS7page">
+
+<p>&nbsp;</p>
+<%a5 ?x_DASHBOARDAPP.Output.Body.Dialog2_HTML %>
+<%a5 ?a5dialogHelper_generateCORSHeaders() %>
+
+</body></html>

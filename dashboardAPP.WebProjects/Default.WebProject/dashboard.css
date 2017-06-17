@@ -1,0 +1,12 @@
+.iOS7GridData {
+    font-size: 10px;
+    padding: 4px;
+    cursor: default;
+    color: #888;
+}
+.iOS7DialogLabel {
+    font: 10px Helvetica Neue, HelveticaNeue, Helvetica-Neue, Helvetica, BBAlpha Sans, sans-serif;
+    font-weight: bold;
+    color: #888;
+    padding-top: 5px;
+}
