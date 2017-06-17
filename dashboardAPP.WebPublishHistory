@@ -1,0 +1,31 @@
+<PubHist<[1]<type="A5WPage">
+<name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\index.a5w}">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('17/06/2017 02:58:03 82 pm')>
+>
+<[2]<type="WebComponent">
+<name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboardapp.a5wcmp}">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('17/06/2017 02:58:04 18 pm')>
+>
+<[3]<type="file">
+<name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboard.css}">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('17/06/2017 02:58:04 20 pm')>
+>
+<[4]<type="css">
+<name="a5system">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('17/06/2017 02:58:04 23 pm')>
+>
+<[5]<type="css">
+<name="ios7">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('17/06/2017 02:58:04 37 pm')>
+>
+<[6]<type="file">
+<name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\project.securitysettings}">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('17/06/2017 02:58:04 45 pm')>
+>
+>
