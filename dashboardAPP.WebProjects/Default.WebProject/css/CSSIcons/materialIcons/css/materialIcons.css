@@ -1,0 +1,2423 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+	   local('MaterialIcons-Regular'),
+	   url('../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+	   url('../fonts/MaterialIcons-Regular.woff') format('woff'),
+	   url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+
+
+
+
+.mi {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;  /* Preferred icon size */
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+	
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+.mi-3d-Rotation:before {
+	content: '\e84d ';
+}
+.mi-Access-Alarm:before {
+	content: '\e190 ';
+}
+.mi-Access-Alarms:before {
+	content: '\e191 ';
+}
+.mi-Access-Time:before {
+	content: '\e192 ';
+}
+.mi-Accessibility:before {
+	content: '\e84e ';
+}
+.mi-Account-Balance:before {
+	content: '\e84f ';
+}
+.mi-Account-Balance-Wallet:before {
+	content: '\e850 ';
+}
+.mi-Account-Box:before {
+	content: '\e851 ';
+}
+.mi-Account-Circle:before {
+	content: '\e853 ';
+}
+.mi-Adb:before {
+	content: '\e60e ';
+}
+.mi-Add:before {
+	content: '\e145 ';
+}
+.mi-Add-Alarm:before {
+	content: '\e193 ';
+}
+.mi-Add-Alert:before {
+	content: '\e003 ';
+}
+.mi-Add-Box:before {
+	content: '\e146 ';
+}
+.mi-Add-Circle:before {
+	content: '\e147 ';
+}
+.mi-Add-Circle-Outline:before {
+	content: '\e148 ';
+}
+.mi-Add-Shopping-Cart:before {
+	content: '\e854 ';
+}
+.mi-Add-To-Photos:before {
+	content: '\e39d ';
+}
+.mi-Adjust:before {
+	content: '\e39e ';
+}
+.mi-Airline-Seat-Flat:before {
+	content: '\e630 ';
+}
+.mi-Airline-Seat-Flat-Angled:before {
+	content: '\e631 ';
+}
+.mi-Airline-Seat-Individual-Suite:before {
+	content: '\e632 ';
+}
+.mi-Airline-Seat-Legroom-Extra:before {
+	content: '\e633 ';
+}
+.mi-Airline-Seat-Legroom-Normal:before {
+	content: '\e634 ';
+}
+.mi-Airline-Seat-Legroom-Reduced:before {
+	content: '\e635 ';
+}
+.mi-Airline-Seat-Recline-Extra:before {
+	content: '\e636 ';
+}
+.mi-Airline-Seat-Recline-Normal:before {
+	content: '\e637 ';
+}
+.mi-Airplanemode-Active:before {
+	content: '\e195 ';
+}
+.mi-Airplanemode-Inactive:before {
+	content: '\e194 ';
+}
+.mi-Airplay:before {
+	content: '\e055 ';
+}
+.mi-Alarm:before {
+	content: '\e855 ';
+}
+.mi-Alarm-Add:before {
+	content: '\e856 ';
+}
+.mi-Alarm-Off:before {
+	content: '\e857 ';
+}
+.mi-Alarm-On:before {
+	content: '\e858 ';
+}
+.mi-Album:before {
+	content: '\e019 ';
+}
+.mi-Android:before {
+	content: '\e859 ';
+}
+.mi-Announcement:before {
+	content: '\e85a ';
+}
+.mi-Apps:before {
+	content: '\e5c3 ';
+}
+.mi-Archive:before {
+	content: '\e149 ';
+}
+.mi-Arrow-Back:before {
+	content: '\e5c4 ';
+}
+.mi-Arrow-Drop-Down:before {
+	content: '\e5c5 ';
+}
+.mi-Arrow-Drop-Down-Circle:before {
+	content: '\e5c6 ';
+}
+.mi-Arrow-Drop-Up:before {
+	content: '\e5c7 ';
+}
+.mi-Arrow-Forward:before {
+	content: '\e5c8 ';
+}
+.mi-Aspect-Ratio:before {
+	content: '\e85b ';
+}
+.mi-Assessment:before {
+	content: '\e85c ';
+}
+.mi-Assignment:before {
+	content: '\e85d ';
+}
+.mi-Assignment-Ind:before {
+	content: '\e85e ';
+}
+.mi-Assignment-Late:before {
+	content: '\e85f ';
+}
+.mi-Assignment-Return:before {
+	content: '\e860 ';
+}
+.mi-Assignment-Returned:before {
+	content: '\e861 ';
+}
+.mi-Assignment-Turned-In:before {
+	content: '\e862 ';
+}
+.mi-Assistant:before {
+	content: '\e39f ';
+}
+.mi-Assistant-Photo:before {
+	content: '\e3a0 ';
+}
+.mi-Attach-File:before {
+	content: '\e226 ';
+}
+.mi-Attach-Money:before {
+	content: '\e227 ';
+}
+.mi-Attachment:before {
+	content: '\e2bc ';
+}
+.mi-Audiotrack:before {
+	content: '\e3a1 ';
+}
+.mi-Autorenew:before {
+	content: '\e863 ';
+}
+.mi-Av-Timer:before {
+	content: '\e01b ';
+}
+.mi-Backspace:before {
+	content: '\e14a ';
+}
+.mi-Backup:before {
+	content: '\e864 ';
+}
+.mi-Battery-Alert:before {
+	content: '\e19c ';
+}
+.mi-Battery-Charging-Full:before {
+	content: '\e1a3 ';
+}
+.mi-Battery-Full:before {
+	content: '\e1a4 ';
+}
+.mi-Battery-Std:before {
+	content: '\e1a5 ';
+}
+.mi-Battery-Unknown:before {
+	content: '\e1a6 ';
+}
+.mi-Beenhere:before {
+	content: '\e52d ';
+}
+.mi-Block:before {
+	content: '\e14b ';
+}
+.mi-Bluetooth:before {
+	content: '\e1a7 ';
+}
+.mi-Bluetooth-Audio:before {
+	content: '\e60f ';
+}
+.mi-Bluetooth-Connected:before {
+	content: '\e1a8 ';
+}
+.mi-Bluetooth-Disabled:before {
+	content: '\e1a9 ';
+}
+.mi-Bluetooth-Searching:before {
+	content: '\e1aa ';
+}
+.mi-Blur-Circular:before {
+	content: '\e3a2 ';
+}
+.mi-Blur-Linear:before {
+	content: '\e3a3 ';
+}
+.mi-Blur-Off:before {
+	content: '\e3a4 ';
+}
+.mi-Blur-On:before {
+	content: '\e3a5 ';
+}
+.mi-Book:before {
+	content: '\e865 ';
+}
+.mi-Bookmark:before {
+	content: '\e866 ';
+}
+.mi-Bookmark-Border:before {
+	content: '\e867 ';
+}
+.mi-Border-All:before {
+	content: '\e228 ';
+}
+.mi-Border-Bottom:before {
+	content: '\e229 ';
+}
+.mi-Border-Clear:before {
+	content: '\e22a ';
+}
+.mi-Border-Color:before {
+	content: '\e22b ';
+}
+.mi-Border-Horizontal:before {
+	content: '\e22c ';
+}
+.mi-Border-Inner:before {
+	content: '\e22d ';
+}
+.mi-Border-Left:before {
+	content: '\e22e ';
+}
+.mi-Border-Outer:before {
+	content: '\e22f ';
+}
+.mi-Border-Right:before {
+	content: '\e230 ';
+}
+.mi-Border-Style:before {
+	content: '\e231 ';
+}
+.mi-Border-Top:before {
+	content: '\e232 ';
+}
+.mi-Border-Vertical:before {
+	content: '\e233 ';
+}
+.mi-Brightness-1:before {
+	content: '\e3a6 ';
+}
+.mi-Brightness-2:before {
+	content: '\e3a7 ';
+}
+.mi-Brightness-3:before {
+	content: '\e3a8 ';
+}
+.mi-Brightness-4:before {
+	content: '\e3a9 ';
+}
+.mi-Brightness-5:before {
+	content: '\e3aa ';
+}
+.mi-Brightness-6:before {
+	content: '\e3ab ';
+}
+.mi-Brightness-7:before {
+	content: '\e3ac ';
+}
+.mi-Brightness-Auto:before {
+	content: '\e1ab ';
+}
+.mi-Brightness-High:before {
+	content: '\e1ac ';
+}
+.mi-Brightness-Low:before {
+	content: '\e1ad ';
+}
+.mi-Brightness-Medium:before {
+	content: '\e1ae ';
+}
+.mi-Broken-Image:before {
+	content: '\e3ad ';
+}
+.mi-Brush:before {
+	content: '\e3ae ';
+}
+.mi-Bug-Report:before {
+	content: '\e868 ';
+}
+.mi-Build:before {
+	content: '\e869 ';
+}
+.mi-Business:before {
+	content: '\e0af ';
+}
+.mi-Cached:before {
+	content: '\e86a ';
+}
+.mi-Cake:before {
+	content: '\e7e9 ';
+}
+.mi-Call:before {
+	content: '\e0b0 ';
+}
+.mi-Call-End:before {
+	content: '\e0b1 ';
+}
+.mi-Call-Made:before {
+	content: '\e0b2 ';
+}
+.mi-Call-Merge:before {
+	content: '\e0b3 ';
+}
+.mi-Call-Missed:before {
+	content: '\e0b4 ';
+}
+.mi-Call-Received:before {
+	content: '\e0b5 ';
+}
+.mi-Call-Split:before {
+	content: '\e0b6 ';
+}
+.mi-Camera:before {
+	content: '\e3af ';
+}
+.mi-Camera-Alt:before {
+	content: '\e3b0 ';
+}
+.mi-Camera-Enhance:before {
+	content: '\e8fc ';
+}
+.mi-Camera-Front:before {
+	content: '\e3b1 ';
+}
+.mi-Camera-Rear:before {
+	content: '\e3b2 ';
+}
+.mi-Camera-Roll:before {
+	content: '\e3b3 ';
+}
+.mi-Cancel:before {
+	content: '\e5c9 ';
+}
+.mi-Card-Giftcard:before {
+	content: '\e8f6 ';
+}
+.mi-Card-Membership:before {
+	content: '\e8f7 ';
+}
+.mi-Card-Travel:before {
+	content: '\e8f8 ';
+}
+.mi-Cast:before {
+	content: '\e307 ';
+}
+.mi-Cast-Connected:before {
+	content: '\e308 ';
+}
+.mi-Center-Focus-Strong:before {
+	content: '\e3b4 ';
+}
+.mi-Center-Focus-Weak:before {
+	content: '\e3b5 ';
+}
+.mi-Change-History:before {
+	content: '\e86b ';
+}
+.mi-Chat:before {
+	content: '\e0b7 ';
+}
+.mi-Chat-Bubble:before {
+	content: '\e0ca ';
+}
+.mi-Chat-Bubble-Outline:before {
+	content: '\e0cb ';
+}
+.mi-Check:before {
+	content: '\e5ca ';
+}
+.mi-Check-Box:before {
+	content: '\e834 ';
+}
+.mi-Check-Box-Outline-Blank:before {
+	content: '\e835 ';
+}
+.mi-Check-Circle:before {
+	content: '\e86c ';
+}
+.mi-Chevron-Left:before {
+	content: '\e5cb ';
+}
+.mi-Chevron-Right:before {
+	content: '\e5cc ';
+}
+.mi-Chrome-Reader-Mode:before {
+	content: '\e86d ';
+}
+.mi-Class:before {
+	content: '\e86e ';
+}
+.mi-Clear:before {
+	content: '\e14c ';
+}
+.mi-Clear-All:before {
+	content: '\e0b8 ';
+}
+.mi-Close:before {
+	content: '\e5cd ';
+}
+.mi-Closed-Caption:before {
+	content: '\e01c ';
+}
+.mi-Cloud:before {
+	content: '\e2bd ';
+}
+.mi-Cloud-Circle:before {
+	content: '\e2be ';
+}
+.mi-Cloud-Done:before {
+	content: '\e2bf ';
+}
+.mi-Cloud-Download:before {
+	content: '\e2c0 ';
+}
+.mi-Cloud-Off:before {
+	content: '\e2c1 ';
+}
+.mi-Cloud-Queue:before {
+	content: '\e2c2 ';
+}
+.mi-Cloud-Upload:before {
+	content: '\e2c3 ';
+}
+.mi-Code:before {
+	content: '\e86f ';
+}
+.mi-Collections:before {
+	content: '\e3b6 ';
+}
+.mi-Collections-Bookmark:before {
+	content: '\e431 ';
+}
+.mi-Color-Lens:before {
+	content: '\e3b7 ';
+}
+.mi-Colorize:before {
+	content: '\e3b8 ';
+}
+.mi-Comment:before {
+	content: '\e0b9 ';
+}
+.mi-Compare:before {
+	content: '\e3b9 ';
+}
+.mi-Computer:before {
+	content: '\e30a ';
+}
+.mi-Confirmation-Number:before {
+	content: '\e638 ';
+}
+.mi-Contact-Phone:before {
+	content: '\e0cf ';
+}
+.mi-Contacts:before {
+	content: '\e0ba ';
+}
+.mi-Content-Copy:before {
+	content: '\e14d ';
+}
+.mi-Content-Cut:before {
+	content: '\e14e ';
+}
+.mi-Content-Paste:before {
+	content: '\e14f ';
+}
+.mi-Control-Point:before {
+	content: '\e3ba ';
+}
+.mi-Control-Point-Duplicate:before {
+	content: '\e3bb ';
+}
+.mi-Create:before {
+	content: '\e150 ';
+}
+.mi-Credit-Card:before {
+	content: '\e870 ';
+}
+.mi-Crop:before {
+	content: '\e3be ';
+}
+.mi-Crop-16-9:before {
+	content: '\e3bc ';
+}
+.mi-Crop-3-2:before {
+	content: '\e3bd ';
+}
+.mi-Crop-5-4:before {
+	content: '\e3bf ';
+}
+.mi-Crop-7-5:before {
+	content: '\e3c0 ';
+}
+.mi-Crop-Din:before {
+	content: '\e3c1 ';
+}
+.mi-Crop-Free:before {
+	content: '\e3c2 ';
+}
+.mi-Crop-Landscape:before {
+	content: '\e3c3 ';
+}
+.mi-Crop-Original:before {
+	content: '\e3c4 ';
+}
+.mi-Crop-Portrait:before {
+	content: '\e3c5 ';
+}
+.mi-Crop-Square:before {
+	content: '\e3c6 ';
+}
+.mi-Dashboard:before {
+	content: '\e871 ';
+}
+.mi-Data-Usage:before {
+	content: '\e1af ';
+}
+.mi-Dehaze:before {
+	content: '\e3c7 ';
+}
+.mi-Delete:before {
+	content: '\e872 ';
+}
+.mi-Description:before {
+	content: '\e873 ';
+}
+.mi-Desktop-Mac:before {
+	content: '\e30b ';
+}
+.mi-Desktop-Windows:before {
+	content: '\e30c ';
+}
+.mi-Details:before {
+	content: '\e3c8 ';
+}
+.mi-Developer-Board:before {
+	content: '\e30d ';
+}
+.mi-Developer-Mode:before {
+	content: '\e1b0 ';
+}
+.mi-Device-Hub:before {
+	content: '\e335 ';
+}
+.mi-Devices:before {
+	content: '\e1b1 ';
+}
+.mi-Dialer-Sip:before {
+	content: '\e0bb ';
+}
+.mi-Dialpad:before {
+	content: '\e0bc ';
+}
+.mi-Directions:before {
+	content: '\e52e ';
+}
+.mi-Directions-Bike:before {
+	content: '\e52f ';
+}
+.mi-Directions-Boat:before {
+	content: '\e532 ';
+}
+.mi-Directions-Bus:before {
+	content: '\e530 ';
+}
+.mi-Directions-Car:before {
+	content: '\e531 ';
+}
+.mi-Directions-Railway:before {
+	content: '\e534 ';
+}
+.mi-Directions-Run:before {
+	content: '\e566 ';
+}
+.mi-Directions-Subway:before {
+	content: '\e533 ';
+}
+.mi-Directions-Transit:before {
+	content: '\e535 ';
+}
+.mi-Directions-Walk:before {
+	content: '\e536 ';
+}
+.mi-Disc-Full:before {
+	content: '\e610 ';
+}
+.mi-Dns:before {
+	content: '\e875 ';
+}
+.mi-Do-Not-Disturb:before {
+	content: '\e612 ';
+}
+.mi-Do-Not-Disturb-Alt:before {
+	content: '\e611 ';
+}
+.mi-Dock:before {
+	content: '\e30e ';
+}
+.mi-Domain:before {
+	content: '\e7ee ';
+}
+.mi-Done:before {
+	content: '\e876 ';
+}
+.mi-Done-All:before {
+	content: '\e877 ';
+}
+.mi-Drafts:before {
+	content: '\e151 ';
+}
+.mi-Drive-Eta:before {
+	content: '\e613 ';
+}
+.mi-Dvr:before {
+	content: '\e1b2 ';
+}
+.mi-Edit:before {
+	content: '\e3c9 ';
+}
+.mi-Eject:before {
+	content: '\e8fb ';
+}
+.mi-Email:before {
+	content: '\e0be ';
+}
+.mi-Equalizer:before {
+	content: '\e01d ';
+}
+.mi-Error:before {
+	content: '\e000 ';
+}
+.mi-Error-Outline:before {
+	content: '\e001 ';
+}
+.mi-Event:before {
+	content: '\e878 ';
+}
+.mi-Event-Available:before {
+	content: '\e614 ';
+}
+.mi-Event-Busy:before {
+	content: '\e615 ';
+}
+.mi-Event-Note:before {
+	content: '\e616 ';
+}
+.mi-Event-Seat:before {
+	content: '\e903 ';
+}
+.mi-Exit-To-App:before {
+	content: '\e879 ';
+}
+.mi-Expand-Less:before {
+	content: '\e5ce ';
+}
+.mi-Expand-More:before {
+	content: '\e5cf ';
+}
+.mi-Explicit:before {
+	content: '\e01e ';
+}
+.mi-Explore:before {
+	content: '\e87a ';
+}
+.mi-Exposure:before {
+	content: '\e3ca ';
+}
+.mi-Exposure-Neg-1:before {
+	content: '\e3cb ';
+}
+.mi-Exposure-Neg-2:before {
+	content: '\e3cc ';
+}
+.mi-Exposure-Plus-1:before {
+	content: '\e3cd ';
+}
+.mi-Exposure-Plus-2:before {
+	content: '\e3ce ';
+}
+.mi-Exposure-Zero:before {
+	content: '\e3cf ';
+}
+.mi-Extension:before {
+	content: '\e87b ';
+}
+.mi-Face:before {
+	content: '\e87c ';
+}
+.mi-Fast-Forward:before {
+	content: '\e01f ';
+}
+.mi-Fast-Rewind:before {
+	content: '\e020 ';
+}
+.mi-Favorite:before {
+	content: '\e87d ';
+}
+.mi-Favorite-Border:before {
+	content: '\e87e ';
+}
+.mi-Feedback:before {
+	content: '\e87f ';
+}
+.mi-File-Download:before {
+	content: '\e2c4 ';
+}
+.mi-File-Upload:before {
+	content: '\e2c6 ';
+}
+.mi-Filter:before {
+	content: '\e3d3 ';
+}
+.mi-Filter-1:before {
+	content: '\e3d0 ';
+}
+.mi-Filter-2:before {
+	content: '\e3d1 ';
+}
+.mi-Filter-3:before {
+	content: '\e3d2 ';
+}
+.mi-Filter-4:before {
+	content: '\e3d4 ';
+}
+.mi-Filter-5:before {
+	content: '\e3d5 ';
+}
+.mi-Filter-6:before {
+	content: '\e3d6 ';
+}
+.mi-Filter-7:before {
+	content: '\e3d7 ';
+}
+.mi-Filter-8:before {
+	content: '\e3d8 ';
+}
+.mi-Filter-9:before {
+	content: '\e3d9 ';
+}
+.mi-Filter-9-Plus:before {
+	content: '\e3da ';
+}
+.mi-Filter-B-And-W:before {
+	content: '\e3db ';
+}
+.mi-Filter-Center-Focus:before {
+	content: '\e3dc ';
+}
+.mi-Filter-Drama:before {
+	content: '\e3dd ';
+}
+.mi-Filter-Frames:before {
+	content: '\e3de ';
+}
+.mi-Filter-Hdr:before {
+	content: '\e3df ';
+}
+.mi-Filter-List:before {
+	content: '\e152 ';
+}
+.mi-Filter-None:before {
+	content: '\e3e0 ';
+}
+.mi-Filter-Tilt-Shift:before {
+	content: '\e3e2 ';
+}
+.mi-Filter-Vintage:before {
+	content: '\e3e3 ';
+}
+.mi-Find-In-Page:before {
+	content: '\e880 ';
+}
+.mi-Find-Replace:before {
+	content: '\e881 ';
+}
+.mi-Flag:before {
+	content: '\e153 ';
+}
+.mi-Flare:before {
+	content: '\e3e4 ';
+}
+.mi-Flash-Auto:before {
+	content: '\e3e5 ';
+}
+.mi-Flash-Off:before {
+	content: '\e3e6 ';
+}
+.mi-Flash-On:before {
+	content: '\e3e7 ';
+}
+.mi-Flight:before {
+	content: '\e539 ';
+}
+.mi-Flight-Land:before {
+	content: '\e904 ';
+}
+.mi-Flight-Takeoff:before {
+	content: '\e905 ';
+}
+.mi-Flip:before {
+	content: '\e3e8 ';
+}
+.mi-Flip-To-Back:before {
+	content: '\e882 ';
+}
+.mi-Flip-To-Front:before {
+	content: '\e883 ';
+}
+.mi-Folder:before {
+	content: '\e2c7 ';
+}
+.mi-Folder-Open:before {
+	content: '\e2c8 ';
+}
+.mi-Folder-Shared:before {
+	content: '\e2c9 ';
+}
+.mi-Folder-Special:before {
+	content: '\e617 ';
+}
+.mi-Font-Download:before {
+	content: '\e167 ';
+}
+.mi-Format-Align-Center:before {
+	content: '\e234 ';
+}
+.mi-Format-Align-Justify:before {
+	content: '\e235 ';
+}
+.mi-Format-Align-Left:before {
+	content: '\e236 ';
+}
+.mi-Format-Align-Right:before {
+	content: '\e237 ';
+}
+.mi-Format-Bold:before {
+	content: '\e238 ';
+}
+.mi-Format-Clear:before {
+	content: '\e239 ';
+}
+.mi-Format-Color-Fill:before {
+	content: '\e23a ';
+}
+.mi-Format-Color-Reset:before {
+	content: '\e23b ';
+}
+.mi-Format-Color-Text:before {
+	content: '\e23c ';
+}
+.mi-Format-Indent-Decrease:before {
+	content: '\e23d ';
+}
+.mi-Format-Indent-Increase:before {
+	content: '\e23e ';
+}
+.mi-Format-Italic:before {
+	content: '\e23f ';
+}
+.mi-Format-Line-Spacing:before {
+	content: '\e240 ';
+}
+.mi-Format-List-Bulleted:before {
+	content: '\e241 ';
+}
+.mi-Format-List-Numbered:before {
+	content: '\e242 ';
+}
+.mi-Format-Paint:before {
+	content: '\e243 ';
+}
+.mi-Format-Quote:before {
+	content: '\e244 ';
+}
+.mi-Format-Size:before {
+	content: '\e245 ';
+}
+.mi-Format-Strikethrough:before {
+	content: '\e246 ';
+}
+.mi-Format-Textdirection-L-To-R:before {
+	content: '\e247 ';
+}
+.mi-Format-Textdirection-R-To-L:before {
+	content: '\e248 ';
+}
+.mi-Format-Underlined:before {
+	content: '\e249 ';
+}
+.mi-Forum:before {
+	content: '\e0bf ';
+}
+.mi-Forward:before {
+	content: '\e154 ';
+}
+.mi-Forward-10:before {
+	content: '\e056 ';
+}
+.mi-Forward-30:before {
+	content: '\e057 ';
+}
+.mi-Forward-5:before {
+	content: '\e058 ';
+}
+.mi-Fullscreen:before {
+	content: '\e5d0 ';
+}
+.mi-Fullscreen-Exit:before {
+	content: '\e5d1 ';
+}
+.mi-Functions:before {
+	content: '\e24a ';
+}
+.mi-Gamepad:before {
+	content: '\e30f ';
+}
+.mi-Games:before {
+	content: '\e021 ';
+}
+.mi-Gesture:before {
+	content: '\e155 ';
+}
+.mi-Get-App:before {
+	content: '\e884 ';
+}
+.mi-Gif:before {
+	content: '\e908 ';
+}
+.mi-Gps-Fixed:before {
+	content: '\e1b3 ';
+}
+.mi-Gps-Not-Fixed:before {
+	content: '\e1b4 ';
+}
+.mi-Gps-Off:before {
+	content: '\e1b5 ';
+}
+.mi-Grade:before {
+	content: '\e885 ';
+}
+.mi-Gradient:before {
+	content: '\e3e9 ';
+}
+.mi-Grain:before {
+	content: '\e3ea ';
+}
+.mi-Graphic-Eq:before {
+	content: '\e1b8 ';
+}
+.mi-Grid-Off:before {
+	content: '\e3eb ';
+}
+.mi-Grid-On:before {
+	content: '\e3ec ';
+}
+.mi-Group:before {
+	content: '\e7ef ';
+}
+.mi-Group-Add:before {
+	content: '\e7f0 ';
+}
+.mi-Group-Work:before {
+	content: '\e886 ';
+}
+.mi-Hd:before {
+	content: '\e052 ';
+}
+.mi-Hdr-Off:before {
+	content: '\e3ed ';
+}
+.mi-Hdr-On:before {
+	content: '\e3ee ';
+}
+.mi-Hdr-Strong:before {
+	content: '\e3f1 ';
+}
+.mi-Hdr-Weak:before {
+	content: '\e3f2 ';
+}
+.mi-Headset:before {
+	content: '\e310 ';
+}
+.mi-Headset-Mic:before {
+	content: '\e311 ';
+}
+.mi-Healing:before {
+	content: '\e3f3 ';
+}
+.mi-Hearing:before {
+	content: '\e023 ';
+}
+.mi-Help:before {
+	content: '\e887 ';
+}
+.mi-Help-Outline:before {
+	content: '\e8fd ';
+}
+.mi-High-Quality:before {
+	content: '\e024 ';
+}
+.mi-Highlight-Off:before {
+	content: '\e888 ';
+}
+.mi-History:before {
+	content: '\e889 ';
+}
+.mi-Home:before {
+	content: '\e88a ';
+}
+.mi-Hotel:before {
+	content: '\e53a ';
+}
+.mi-Hourglass-Empty:before {
+	content: '\e88b ';
+}
+.mi-Hourglass-Full:before {
+	content: '\e88c ';
+}
+.mi-Http:before {
+	content: '\e902 ';
+}
+.mi-Https:before {
+	content: '\e88d ';
+}
+.mi-Image:before {
+	content: '\e3f4 ';
+}
+.mi-Image-Aspect-Ratio:before {
+	content: '\e3f5 ';
+}
+.mi-Import-Export:before {
+	content: '\e0c3 ';
+}
+.mi-Inbox:before {
+	content: '\e156 ';
+}
+.mi-Indeterminate-Check-Box:before {
+	content: '\e909 ';
+}
+.mi-Info:before {
+	content: '\e88e ';
+}
+.mi-Info-Outline:before {
+	content: '\e88f ';
+}
+.mi-Input:before {
+	content: '\e890 ';
+}
+.mi-Insert-Chart:before {
+	content: '\e24b ';
+}
+.mi-Insert-Comment:before {
+	content: '\e24c ';
+}
+.mi-Insert-Drive-File:before {
+	content: '\e24d ';
+}
+.mi-Insert-Emoticon:before {
+	content: '\e24e ';
+}
+.mi-Insert-Invitation:before {
+	content: '\e24f ';
+}
+.mi-Insert-Link:before {
+	content: '\e250 ';
+}
+.mi-Insert-Photo:before {
+	content: '\e251 ';
+}
+.mi-Invert-Colors:before {
+	content: '\e891 ';
+}
+.mi-Invert-Colors-Off:before {
+	content: '\e0c4 ';
+}
+.mi-Iso:before {
+	content: '\e3f6 ';
+}
+.mi-Keyboard:before {
+	content: '\e312 ';
+}
+.mi-Keyboard-Arrow-Down:before {
+	content: '\e313 ';
+}
+.mi-Keyboard-Arrow-Left:before {
+	content: '\e314 ';
+}
+.mi-Keyboard-Arrow-Right:before {
+	content: '\e315 ';
+}
+.mi-Keyboard-Arrow-Up:before {
+	content: '\e316 ';
+}
+.mi-Keyboard-Backspace:before {
+	content: '\e317 ';
+}
+.mi-Keyboard-Capslock:before {
+	content: '\e318 ';
+}
+.mi-Keyboard-Hide:before {
+	content: '\e31a ';
+}
+.mi-Keyboard-Return:before {
+	content: '\e31b ';
+}
+.mi-Keyboard-Tab:before {
+	content: '\e31c ';
+}
+.mi-Keyboard-Voice:before {
+	content: '\e31d ';
+}
+.mi-Label:before {
+	content: '\e892 ';
+}
+.mi-Label-Outline:before {
+	content: '\e893 ';
+}
+.mi-Landscape:before {
+	content: '\e3f7 ';
+}
+.mi-Language:before {
+	content: '\e894 ';
+}
+.mi-Laptop:before {
+	content: '\e31e ';
+}
+.mi-Laptop-Chromebook:before {
+	content: '\e31f ';
+}
+.mi-Laptop-Mac:before {
+	content: '\e320 ';
+}
+.mi-Laptop-Windows:before {
+	content: '\e321 ';
+}
+.mi-Launch:before {
+	content: '\e895 ';
+}
+.mi-Layers:before {
+	content: '\e53b ';
+}
+.mi-Layers-Clear:before {
+	content: '\e53c ';
+}
+.mi-Leak-Add:before {
+	content: '\e3f8 ';
+}
+.mi-Leak-Remove:before {
+	content: '\e3f9 ';
+}
+.mi-Lens:before {
+	content: '\e3fa ';
+}
+.mi-Library-Add:before {
+	content: '\e02e ';
+}
+.mi-Library-Books:before {
+	content: '\e02f ';
+}
+.mi-Library-Music:before {
+	content: '\e030 ';
+}
+.mi-Link:before {
+	content: '\e157 ';
+}
+.mi-List:before {
+	content: '\e896 ';
+}
+.mi-Live-Help:before {
+	content: '\e0c6 ';
+}
+.mi-Live-Tv:before {
+	content: '\e639 ';
+}
+.mi-Local-Activity:before {
+	content: '\e53f ';
+}
+.mi-Local-Airport:before {
+	content: '\e53d ';
+}
+.mi-Local-Atm:before {
+	content: '\e53e ';
+}
+.mi-Local-Bar:before {
+	content: '\e540 ';
+}
+.mi-Local-Cafe:before {
+	content: '\e541 ';
+}
+.mi-Local-Car-Wash:before {
+	content: '\e542 ';
+}
+.mi-Local-Convenience-Store:before {
+	content: '\e543 ';
+}
+.mi-Local-Dining:before {
+	content: '\e556 ';
+}
+.mi-Local-Drink:before {
+	content: '\e544 ';
+}
+.mi-Local-Florist:before {
+	content: '\e545 ';
+}
+.mi-Local-Gas-Station:before {
+	content: '\e546 ';
+}
+.mi-Local-Grocery-Store:before {
+	content: '\e547 ';
+}
+.mi-Local-Hospital:before {
+	content: '\e548 ';
+}
+.mi-Local-Hotel:before {
+	content: '\e549 ';
+}
+.mi-Local-Laundry-Service:before {
+	content: '\e54a ';
+}
+.mi-Local-Library:before {
+	content: '\e54b ';
+}
+.mi-Local-Mall:before {
+	content: '\e54c ';
+}
+.mi-Local-Movies:before {
+	content: '\e54d ';
+}
+.mi-Local-Offer:before {
+	content: '\e54e ';
+}
+.mi-Local-Parking:before {
+	content: '\e54f ';
+}
+.mi-Local-Pharmacy:before {
+	content: '\e550 ';
+}
+.mi-Local-Phone:before {
+	content: '\e551 ';
+}
+.mi-Local-Pizza:before {
+	content: '\e552 ';
+}
+.mi-Local-Play:before {
+	content: '\e553 ';
+}
+.mi-Local-Post-Office:before {
+	content: '\e554 ';
+}
+.mi-Local-Printshop:before {
+	content: '\e555 ';
+}
+.mi-Local-See:before {
+	content: '\e557 ';
+}
+.mi-Local-Shipping:before {
+	content: '\e558 ';
+}
+.mi-Local-Taxi:before {
+	content: '\e559 ';
+}
+.mi-Location-City:before {
+	content: '\e7f1 ';
+}
+.mi-Location-Disabled:before {
+	content: '\e1b6 ';
+}
+.mi-Location-Off:before {
+	content: '\e0c7 ';
+}
+.mi-Location-On:before {
+	content: '\e0c8 ';
+}
+.mi-Location-Searching:before {
+	content: '\e1b7 ';
+}
+.mi-Lock:before {
+	content: '\e897 ';
+}
+.mi-Lock-Open:before {
+	content: '\e898 ';
+}
+.mi-Lock-Outline:before {
+	content: '\e899 ';
+}
+.mi-Looks:before {
+	content: '\e3fc ';
+}
+.mi-Looks-3:before {
+	content: '\e3fb ';
+}
+.mi-Looks-4:before {
+	content: '\e3fd ';
+}
+.mi-Looks-5:before {
+	content: '\e3fe ';
+}
+.mi-Looks-6:before {
+	content: '\e3ff ';
+}
+.mi-Looks-One:before {
+	content: '\e400 ';
+}
+.mi-Looks-Two:before {
+	content: '\e401 ';
+}
+.mi-Loop:before {
+	content: '\e028 ';
+}
+.mi-Loupe:before {
+	content: '\e402 ';
+}
+.mi-Loyalty:before {
+	content: '\e89a ';
+}
+.mi-Mail:before {
+	content: '\e158 ';
+}
+.mi-Map:before {
+	content: '\e55b ';
+}
+.mi-Markunread:before {
+	content: '\e159 ';
+}
+.mi-Markunread-Mailbox:before {
+	content: '\e89b ';
+}
+.mi-Memory:before {
+	content: '\e322 ';
+}
+.mi-Menu:before {
+	content: '\e5d2 ';
+}
+.mi-Merge-Type:before {
+	content: '\e252 ';
+}
+.mi-Message:before {
+	content: '\e0c9 ';
+}
+.mi-Mic:before {
+	content: '\e029 ';
+}
+.mi-Mic-None:before {
+	content: '\e02a ';
+}
+.mi-Mic-Off:before {
+	content: '\e02b ';
+}
+.mi-Mms:before {
+	content: '\e618 ';
+}
+.mi-Mode-Comment:before {
+	content: '\e253 ';
+}
+.mi-Mode-Edit:before {
+	content: '\e254 ';
+}
+.mi-Money-Off:before {
+	content: '\e25c ';
+}
+.mi-Monochrome-Photos:before {
+	content: '\e403 ';
+}
+.mi-Mood:before {
+	content: '\e7f2 ';
+}
+.mi-Mood-Bad:before {
+	content: '\e7f3 ';
+}
+.mi-More:before {
+	content: '\e619 ';
+}
+.mi-More-Horiz:before {
+	content: '\e5d3 ';
+}
+.mi-More-Vert:before {
+	content: '\e5d4 ';
+}
+.mi-Mouse:before {
+	content: '\e323 ';
+}
+.mi-Movie:before {
+	content: '\e02c ';
+}
+.mi-Movie-Creation:before {
+	content: '\e404 ';
+}
+.mi-Music-Note:before {
+	content: '\e405 ';
+}
+.mi-My-Location:before {
+	content: '\e55c ';
+}
+.mi-Nature:before {
+	content: '\e406 ';
+}
+.mi-Nature-People:before {
+	content: '\e407 ';
+}
+.mi-Navigate-Before:before {
+	content: '\e408 ';
+}
+.mi-Navigate-Next:before {
+	content: '\e409 ';
+}
+.mi-Navigation:before {
+	content: '\e55d ';
+}
+.mi-Network-Cell:before {
+	content: '\e1b9 ';
+}
+.mi-Network-Locked:before {
+	content: '\e61a ';
+}
+.mi-Network-Wifi:before {
+	content: '\e1ba ';
+}
+.mi-New-Releases:before {
+	content: '\e031 ';
+}
+.mi-Nfc:before {
+	content: '\e1bb ';
+}
+.mi-No-Sim:before {
+	content: '\e0cc ';
+}
+.mi-Not-Interested:before {
+	content: '\e033 ';
+}
+.mi-Note-Add:before {
+	content: '\e89c ';
+}
+.mi-Notifications:before {
+	content: '\e7f4 ';
+}
+.mi-Notifications-Active:before {
+	content: '\e7f7 ';
+}
+.mi-Notifications-None:before {
+	content: '\e7f5 ';
+}
+.mi-Notifications-Off:before {
+	content: '\e7f6 ';
+}
+.mi-Notifications-Paused:before {
+	content: '\e7f8 ';
+}
+.mi-Offline-Pin:before {
+	content: '\e90a ';
+}
+.mi-Ondemand-Video:before {
+	content: '\e63a ';
+}
+.mi-Open-In-Browser:before {
+	content: '\e89d ';
+}
+.mi-Open-In-New:before {
+	content: '\e89e ';
+}
+.mi-Open-With:before {
+	content: '\e89f ';
+}
+.mi-Pages:before {
+	content: '\e7f9 ';
+}
+.mi-Pageview:before {
+	content: '\e8a0 ';
+}
+.mi-Palette:before {
+	content: '\e40a ';
+}
+.mi-Panorama:before {
+	content: '\e40b ';
+}
+.mi-Panorama-Fish-Eye:before {
+	content: '\e40c ';
+}
+.mi-Panorama-Horizontal:before {
+	content: '\e40d ';
+}
+.mi-Panorama-Vertical:before {
+	content: '\e40e ';
+}
+.mi-Panorama-Wide-Angle:before {
+	content: '\e40f ';
+}
+.mi-Party-Mode:before {
+	content: '\e7fa ';
+}
+.mi-Pause:before {
+	content: '\e034 ';
+}
+.mi-Pause-Circle-Filled:before {
+	content: '\e035 ';
+}
+.mi-Pause-Circle-Outline:before {
+	content: '\e036 ';
+}
+.mi-Payment:before {
+	content: '\e8a1 ';
+}
+.mi-People:before {
+	content: '\e7fb ';
+}
+.mi-People-Outline:before {
+	content: '\e7fc ';
+}
+.mi-Perm-Camera-Mic:before {
+	content: '\e8a2 ';
+}
+.mi-Perm-Contact-Calendar:before {
+	content: '\e8a3 ';
+}
+.mi-Perm-Data-Setting:before {
+	content: '\e8a4 ';
+}
+.mi-Perm-Device-Information:before {
+	content: '\e8a5 ';
+}
+.mi-Perm-Identity:before {
+	content: '\e8a6 ';
+}
+.mi-Perm-Media:before {
+	content: '\e8a7 ';
+}
+.mi-Perm-Phone-Msg:before {
+	content: '\e8a8 ';
+}
+.mi-Perm-Scan-Wifi:before {
+	content: '\e8a9 ';
+}
+.mi-Person:before {
+	content: '\e7fd ';
+}
+.mi-Person-Add:before {
+	content: '\e7fe ';
+}
+.mi-Person-Outline:before {
+	content: '\e7ff ';
+}
+.mi-Person-Pin:before {
+	content: '\e55a ';
+}
+.mi-Personal-Video:before {
+	content: '\e63b ';
+}
+.mi-Phone:before {
+	content: '\e0cd ';
+}
+.mi-Phone-Android:before {
+	content: '\e324 ';
+}
+.mi-Phone-Bluetooth-Speaker:before {
+	content: '\e61b ';
+}
+.mi-Phone-Forwarded:before {
+	content: '\e61c ';
+}
+.mi-Phone-In-Talk:before {
+	content: '\e61d ';
+}
+.mi-Phone-Iphone:before {
+	content: '\e325 ';
+}
+.mi-Phone-Locked:before {
+	content: '\e61e ';
+}
+.mi-Phone-Missed:before {
+	content: '\e61f ';
+}
+.mi-Phone-Paused:before {
+	content: '\e620 ';
+}
+.mi-Phonelink:before {
+	content: '\e326 ';
+}
+.mi-Phonelink-Erase:before {
+	content: '\e0db ';
+}
+.mi-Phonelink-Lock:before {
+	content: '\e0dc ';
+}
+.mi-Phonelink-Off:before {
+	content: '\e327 ';
+}
+.mi-Phonelink-Ring:before {
+	content: '\e0dd ';
+}
+.mi-Phonelink-Setup:before {
+	content: '\e0de ';
+}
+.mi-Photo:before {
+	content: '\e410 ';
+}
+.mi-Photo-Album:before {
+	content: '\e411 ';
+}
+.mi-Photo-Camera:before {
+	content: '\e412 ';
+}
+.mi-Photo-Library:before {
+	content: '\e413 ';
+}
+.mi-Photo-Size-Select-Actual:before {
+	content: '\e432 ';
+}
+.mi-Photo-Size-Select-Large:before {
+	content: '\e433 ';
+}
+.mi-Photo-Size-Select-Small:before {
+	content: '\e434 ';
+}
+.mi-Picture-In-Picture:before {
+	content: '\e8aa ';
+}
+.mi-Pin-Drop:before {
+	content: '\e55e ';
+}
+.mi-Place:before {
+	content: '\e55f ';
+}
+.mi-Play-Arrow:before {
+	content: '\e037 ';
+}
+.mi-Play-Circle-Filled:before {
+	content: '\e038 ';
+}
+.mi-Play-Circle-Outline:before {
+	content: '\e039 ';
+}
+.mi-Play-For-Work:before {
+	content: '\e906 ';
+}
+.mi-Playlist-Add:before {
+	content: '\e03b ';
+}
+.mi-Plus-One:before {
+	content: '\e800 ';
+}
+.mi-Poll:before {
+	content: '\e801 ';
+}
+.mi-Polymer:before {
+	content: '\e8ab ';
+}
+.mi-Portable-Wifi-Off:before {
+	content: '\e0ce ';
+}
+.mi-Portrait:before {
+	content: '\e416 ';
+}
+.mi-Power:before {
+	content: '\e63c ';
+}
+.mi-Power-Input:before {
+	content: '\e336 ';
+}
+.mi-Power-Settings-New:before {
+	content: '\e8ac ';
+}
+.mi-Present-To-All:before {
+	content: '\e0df ';
+}
+.mi-Print:before {
+	content: '\e8ad ';
+}
+.mi-Public:before {
+	content: '\e80b ';
+}
+.mi-Publish:before {
+	content: '\e255 ';
+}
+.mi-Query-Builder:before {
+	content: '\e8ae ';
+}
+.mi-Question-Answer:before {
+	content: '\e8af ';
+}
+.mi-Queue:before {
+	content: '\e03c ';
+}
+.mi-Queue-Music:before {
+	content: '\e03d ';
+}
+.mi-Radio:before {
+	content: '\e03e ';
+}
+.mi-Radio-Button-Checked:before {
+	content: '\e837 ';
+}
+.mi-Radio-Button-Unchecked:before {
+	content: '\e836 ';
+}
+.mi-Rate-Review:before {
+	content: '\e560 ';
+}
+.mi-Receipt:before {
+	content: '\e8b0 ';
+}
+.mi-Recent-Actors:before {
+	content: '\e03f ';
+}
+.mi-Redeem:before {
+	content: '\e8b1 ';
+}
+.mi-Redo:before {
+	content: '\e15a ';
+}
+.mi-Refresh:before {
+	content: '\e5d5 ';
+}
+.mi-Remove:before {
+	content: '\e15b ';
+}
+.mi-Remove-Circle:before {
+	content: '\e15c ';
+}
+.mi-Remove-Circle-Outline:before {
+	content: '\e15d ';
+}
+.mi-Remove-Red-Eye:before {
+	content: '\e417 ';
+}
+.mi-Reorder:before {
+	content: '\e8fe ';
+}
+.mi-Repeat:before {
+	content: '\e040 ';
+}
+.mi-Repeat-One:before {
+	content: '\e041 ';
+}
+.mi-Replay:before {
+	content: '\e042 ';
+}
+.mi-Replay-10:before {
+	content: '\e059 ';
+}
+.mi-Replay-30:before {
+	content: '\e05a ';
+}
+.mi-Replay-5:before {
+	content: '\e05b ';
+}
+.mi-Reply:before {
+	content: '\e15e ';
+}
+.mi-Reply-All:before {
+	content: '\e15f ';
+}
+.mi-Report:before {
+	content: '\e160 ';
+}
+.mi-Report-Problem:before {
+	content: '\e8b2 ';
+}
+.mi-Restaurant-Menu:before {
+	content: '\e561 ';
+}
+.mi-Restore:before {
+	content: '\e8b3 ';
+}
+.mi-Ring-Volume:before {
+	content: '\e0d1 ';
+}
+.mi-Room:before {
+	content: '\e8b4 ';
+}
+.mi-Rotate-90-Degrees-Ccw:before {
+	content: '\e418 ';
+}
+.mi-Rotate-Left:before {
+	content: '\e419 ';
+}
+.mi-Rotate-Right:before {
+	content: '\e41a ';
+}
+.mi-Router:before {
+	content: '\e328 ';
+}
+.mi-Satellite:before {
+	content: '\e562 ';
+}
+.mi-Save:before {
+	content: '\e161 ';
+}
+.mi-Scanner:before {
+	content: '\e329 ';
+}
+.mi-Schedule:before {
+	content: '\e8b5 ';
+}
+.mi-School:before {
+	content: '\e80c ';
+}
+.mi-Screen-Lock-Landscape:before {
+	content: '\e1be ';
+}
+.mi-Screen-Lock-Portrait:before {
+	content: '\e1bf ';
+}
+.mi-Screen-Lock-Rotation:before {
+	content: '\e1c0 ';
+}
+.mi-Screen-Rotation:before {
+	content: '\e1c1 ';
+}
+.mi-Sd-Card:before {
+	content: '\e623 ';
+}
+.mi-Sd-Storage:before {
+	content: '\e1c2 ';
+}
+.mi-Search:before {
+	content: '\e8b6 ';
+}
+.mi-Security:before {
+	content: '\e32a ';
+}
+.mi-Select-All:before {
+	content: '\e162 ';
+}
+.mi-Send:before {
+	content: '\e163 ';
+}
+.mi-Settings:before {
+	content: '\e8b8 ';
+}
+.mi-Settings-Applications:before {
+	content: '\e8b9 ';
+}
+.mi-Settings-Backup-Restore:before {
+	content: '\e8ba ';
+}
+.mi-Settings-Bluetooth:before {
+	content: '\e8bb ';
+}
+.mi-Settings-Brightness:before {
+	content: '\e8bd ';
+}
+.mi-Settings-Cell:before {
+	content: '\e8bc ';
+}
+.mi-Settings-Ethernet:before {
+	content: '\e8be ';
+}
+.mi-Settings-Input-Antenna:before {
+	content: '\e8bf ';
+}
+.mi-Settings-Input-Component:before {
+	content: '\e8c0 ';
+}
+.mi-Settings-Input-Composite:before {
+	content: '\e8c1 ';
+}
+.mi-Settings-Input-Hdmi:before {
+	content: '\e8c2 ';
+}
+.mi-Settings-Input-Svideo:before {
+	content: '\e8c3 ';
+}
+.mi-Settings-Overscan:before {
+	content: '\e8c4 ';
+}
+.mi-Settings-Phone:before {
+	content: '\e8c5 ';
+}
+.mi-Settings-Power:before {
+	content: '\e8c6 ';
+}
+.mi-Settings-Remote:before {
+	content: '\e8c7 ';
+}
+.mi-Settings-System-Daydream:before {
+	content: '\e1c3 ';
+}
+.mi-Settings-Voice:before {
+	content: '\e8c8 ';
+}
+.mi-Share:before {
+	content: '\e80d ';
+}
+.mi-Shop:before {
+	content: '\e8c9 ';
+}
+.mi-Shop-Two:before {
+	content: '\e8ca ';
+}
+.mi-Shopping-Basket:before {
+	content: '\e8cb ';
+}
+.mi-Shopping-Cart:before {
+	content: '\e8cc ';
+}
+.mi-Shuffle:before {
+	content: '\e043 ';
+}
+.mi-Signal-Cellular-4-Bar:before {
+	content: '\e1c8 ';
+}
+.mi-Signal-Cellular-Connected-No-Internet-4-Bar:before {
+	content: '\e1cd ';
+}
+.mi-Signal-Cellular-No-Sim:before {
+	content: '\e1ce ';
+}
+.mi-Signal-Cellular-Null:before {
+	content: '\e1cf ';
+}
+.mi-Signal-Cellular-Off:before {
+	content: '\e1d0 ';
+}
+.mi-Signal-Wifi-4-Bar:before {
+	content: '\e1d8 ';
+}
+.mi-Signal-Wifi-4-Bar-Lock:before {
+	content: '\e1d9 ';
+}
+.mi-Signal-Wifi-Off:before {
+	content: '\e1da ';
+}
+.mi-Sim-Card:before {
+	content: '\e32b ';
+}
+.mi-Sim-Card-Alert:before {
+	content: '\e624 ';
+}
+.mi-Skip-Next:before {
+	content: '\e044 ';
+}
+.mi-Skip-Previous:before {
+	content: '\e045 ';
+}
+.mi-Slideshow:before {
+	content: '\e41b ';
+}
+.mi-Smartphone:before {
+	content: '\e32c ';
+}
+.mi-Sms:before {
+	content: '\e625 ';
+}
+.mi-Sms-Failed:before {
+	content: '\e626 ';
+}
+.mi-Snooze:before {
+	content: '\e046 ';
+}
+.mi-Sort:before {
+	content: '\e164 ';
+}
+.mi-Sort-By-Alpha:before {
+	content: '\e053 ';
+}
+.mi-Space-Bar:before {
+	content: '\e256 ';
+}
+.mi-Speaker:before {
+	content: '\e32d ';
+}
+.mi-Speaker-Group:before {
+	content: '\e32e ';
+}
+.mi-Speaker-Notes:before {
+	content: '\e8cd ';
+}
+.mi-Speaker-Phone:before {
+	content: '\e0d2 ';
+}
+.mi-Spellcheck:before {
+	content: '\e8ce ';
+}
+.mi-Star:before {
+	content: '\e838 ';
+}
+.mi-Star-Border:before {
+	content: '\e83a ';
+}
+.mi-Star-Half:before {
+	content: '\e839 ';
+}
+.mi-Stars:before {
+	content: '\e8d0 ';
+}
+.mi-Stay-Current-Landscape:before {
+	content: '\e0d3 ';
+}
+.mi-Stay-Current-Portrait:before {
+	content: '\e0d4 ';
+}
+.mi-Stay-Primary-Landscape:before {
+	content: '\e0d5 ';
+}
+.mi-Stay-Primary-Portrait:before {
+	content: '\e0d6 ';
+}
+.mi-Stop:before {
+	content: '\e047 ';
+}
+.mi-Storage:before {
+	content: '\e1db ';
+}
+.mi-Store:before {
+	content: '\e8d1 ';
+}
+.mi-Store-Mall-Directory:before {
+	content: '\e563 ';
+}
+.mi-Straighten:before {
+	content: '\e41c ';
+}
+.mi-Strikethrough-S:before {
+	content: '\e257 ';
+}
+.mi-Style:before {
+	content: '\e41d ';
+}
+.mi-Subject:before {
+	content: '\e8d2 ';
+}
+.mi-Subtitles:before {
+	content: '\e048 ';
+}
+.mi-Supervisor-Account:before {
+	content: '\e8d3 ';
+}
+.mi-Surround-Sound:before {
+	content: '\e049 ';
+}
+.mi-Swap-Calls:before {
+	content: '\e0d7 ';
+}
+.mi-Swap-Horiz:before {
+	content: '\e8d4 ';
+}
+.mi-Swap-Vert:before {
+	content: '\e8d5 ';
+}
+.mi-Swap-Vertical-Circle:before {
+	content: '\e8d6 ';
+}
+.mi-Switch-Camera:before {
+	content: '\e41e ';
+}
+.mi-Switch-Video:before {
+	content: '\e41f ';
+}
+.mi-Sync:before {
+	content: '\e627 ';
+}
+.mi-Sync-Disabled:before {
+	content: '\e628 ';
+}
+.mi-Sync-Problem:before {
+	content: '\e629 ';
+}
+.mi-System-Update:before {
+	content: '\e62a ';
+}
+.mi-System-Update-Alt:before {
+	content: '\e8d7 ';
+}
+.mi-Tab:before {
+	content: '\e8d8 ';
+}
+.mi-Tab-Unselected:before {
+	content: '\e8d9 ';
+}
+.mi-Tablet:before {
+	content: '\e32f ';
+}
+.mi-Tablet-Android:before {
+	content: '\e330 ';
+}
+.mi-Tablet-Mac:before {
+	content: '\e331 ';
+}
+.mi-Tag-Faces:before {
+	content: '\e420 ';
+}
+.mi-Tap-And-Play:before {
+	content: '\e62b ';
+}
+.mi-Terrain:before {
+	content: '\e564 ';
+}
+.mi-Text-Format:before {
+	content: '\e165 ';
+}
+.mi-Textsms:before {
+	content: '\e0d8 ';
+}
+.mi-Texture:before {
+	content: '\e421 ';
+}
+.mi-Theaters:before {
+	content: '\e8da ';
+}
+.mi-Thumb-Down:before {
+	content: '\e8db ';
+}
+.mi-Thumb-Up:before {
+	content: '\e8dc ';
+}
+.mi-Thumbs-Up-Down:before {
+	content: '\e8dd ';
+}
+.mi-Time-To-Leave:before {
+	content: '\e62c ';
+}
+.mi-Timelapse:before {
+	content: '\e422 ';
+}
+.mi-Timer:before {
+	content: '\e425 ';
+}
+.mi-Timer-10:before {
+	content: '\e423 ';
+}
+.mi-Timer-3:before {
+	content: '\e424 ';
+}
+.mi-Timer-Off:before {
+	content: '\e426 ';
+}
+.mi-Toc:before {
+	content: '\e8de ';
+}
+.mi-Today:before {
+	content: '\e8df ';
+}
+.mi-Toll:before {
+	content: '\e8e0 ';
+}
+.mi-Tonality:before {
+	content: '\e427 ';
+}
+.mi-Toys:before {
+	content: '\e332 ';
+}
+.mi-Track-Changes:before {
+	content: '\e8e1 ';
+}
+.mi-Traffic:before {
+	content: '\e565 ';
+}
+.mi-Transform:before {
+	content: '\e428 ';
+}
+.mi-Translate:before {
+	content: '\e8e2 ';
+}
+.mi-Trending-Down:before {
+	content: '\e8e3 ';
+}
+.mi-Trending-Flat:before {
+	content: '\e8e4 ';
+}
+.mi-Trending-Up:before {
+	content: '\e8e5 ';
+}
+.mi-Tune:before {
+	content: '\e429 ';
+}
+.mi-Turned-In:before {
+	content: '\e8e6 ';
+}
+.mi-Turned-In-Not:before {
+	content: '\e8e7 ';
+}
+.mi-Tv:before {
+	content: '\e333 ';
+}
+.mi-Undo:before {
+	content: '\e166 ';
+}
+.mi-Unfold-Less:before {
+	content: '\e5d6 ';
+}
+.mi-Unfold-More:before {
+	content: '\e5d7 ';
+}
+.mi-Usb:before {
+	content: '\e1e0 ';
+}
+.mi-Verified-User:before {
+	content: '\e8e8 ';
+}
+.mi-Vertical-Align-Bottom:before {
+	content: '\e258 ';
+}
+.mi-Vertical-Align-Center:before {
+	content: '\e259 ';
+}
+.mi-Vertical-Align-Top:before {
+	content: '\e25a ';
+}
+.mi-Vibration:before {
+	content: '\e62d ';
+}
+.mi-Video-Library:before {
+	content: '\e04a ';
+}
+.mi-Videocam:before {
+	content: '\e04b ';
+}
+.mi-Videocam-Off:before {
+	content: '\e04c ';
+}
+.mi-View-Agenda:before {
+	content: '\e8e9 ';
+}
+.mi-View-Array:before {
+	content: '\e8ea ';
+}
+.mi-View-Carousel:before {
+	content: '\e8eb ';
+}
+.mi-View-Column:before {
+	content: '\e8ec ';
+}
+.mi-View-Comfy:before {
+	content: '\e42a ';
+}
+.mi-View-Compact:before {
+	content: '\e42b ';
+}
+.mi-View-Day:before {
+	content: '\e8ed ';
+}
+.mi-View-Headline:before {
+	content: '\e8ee ';
+}
+.mi-View-List:before {
+	content: '\e8ef ';
+}
+.mi-View-Module:before {
+	content: '\e8f0 ';
+}
+.mi-View-Quilt:before {
+	content: '\e8f1 ';
+}
+.mi-View-Stream:before {
+	content: '\e8f2 ';
+}
+.mi-View-Week:before {
+	content: '\e8f3 ';
+}
+.mi-Vignette:before {
+	content: '\e435 ';
+}
+.mi-Visibility:before {
+	content: '\e8f4 ';
+}
+.mi-Visibility-Off:before {
+	content: '\e8f5 ';
+}
+.mi-Voice-Chat:before {
+	content: '\e62e ';
+}
+.mi-Voicemail:before {
+	content: '\e0d9 ';
+}
+.mi-Volume-Down:before {
+	content: '\e04d ';
+}
+.mi-Volume-Mute:before {
+	content: '\e04e ';
+}
+.mi-Volume-Off:before {
+	content: '\e04f ';
+}
+.mi-Volume-Up:before {
+	content: '\e050 ';
+}
+.mi-Vpn-Key:before {
+	content: '\e0da ';
+}
+.mi-Vpn-Lock:before {
+	content: '\e62f ';
+}
+.mi-Wallpaper:before {
+	content: '\e1bc ';
+}
+.mi-Warning:before {
+	content: '\e002 ';
+}
+.mi-Watch:before {
+	content: '\e334 ';
+}
+.mi-Wb-Auto:before {
+	content: '\e42c ';
+}
+.mi-Wb-Cloudy:before {
+	content: '\e42d ';
+}
+.mi-Wb-Incandescent:before {
+	content: '\e42e ';
+}
+.mi-Wb-Iridescent:before {
+	content: '\e436 ';
+}
+.mi-Wb-Sunny:before {
+	content: '\e430 ';
+}
+.mi-Wc:before {
+	content: '\e63d ';
+}
+.mi-Web:before {
+	content: '\e051 ';
+}
+.mi-Whatshot:before {
+	content: '\e80e ';
+}
+.mi-Widgets:before {
+	content: '\e1bd ';
+}
+.mi-Wifi:before {
+	content: '\e63e ';
+}
+.mi-Wifi-Lock:before {
+	content: '\e1e1 ';
+}
+.mi-Wifi-Tethering:before {
+	content: '\e1e2 ';
+}
+.mi-Work:before {
+	content: '\e8f9 ';
+}
+.mi-Wrap-Text:before {
+	content: '\e25b ';
+}
+.mi-Youtube-Searched-For:before {
+	content: '\e8fa ';
+}
+.mi-Zoom-In:before {
+	content: '\e8ff ';
+}
+.mi-Zoom-Out:before {
+	content: '\e900 ';
+}

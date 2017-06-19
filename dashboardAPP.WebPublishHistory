@@ -6,17 +6,17 @@
 <[2]<type="WebComponent">
 <name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboardapp.a5wcmp}">
 <target_folder="c:\a5webroot\app">
-<timestamp=CTODT('17/06/2017 02:58:04 18 pm')>
+<timestamp=CTODT('19/06/2017 02:25:08 48 am')>
 >
 <[3]<type="file">
 <name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboard.css}">
 <target_folder="c:\a5webroot\app">
-<timestamp=CTODT('17/06/2017 02:58:04 20 pm')>
+<timestamp=CTODT('17/06/2017 04:41:54 73 pm')>
 >
 <[4]<type="css">
 <name="a5system">
 <target_folder="c:\a5webroot\app">
-<timestamp=CTODT('17/06/2017 02:58:04 23 pm')>
+<timestamp=CTODT('19/06/2017 02:25:08 52 am')>
 >
 <[5]<type="css">
 <name="ios7">
@@ -27,5 +27,40 @@
 <name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\project.securitysettings}">
 <target_folder="c:\a5webroot\app">
 <timestamp=CTODT('17/06/2017 02:58:04 45 pm')>
+>
+<[7]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('17/06/2017 03:37:53 82 pm')>
+>
+<[8]<type="WebComponent">
+<name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboardapp.a5wcmp}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('19/06/2017 02:25:01 99 am')>
+>
+<[9]<type="file">
+<name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboard.css}">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('17/06/2017 03:37:54 41 pm')>
+>
+<[10]<type="css">
+<name="a5system">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('19/06/2017 02:25:02 07 am')>
+>
+<[11]<type="cssIcon">
+<name="materialicons">
+<target_folder="c:\a5webroot">
+<timestamp=CTODT('19/06/2017 02:25:02 19 am')>
+>
+<[12]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('17/06/2017 03:38:01 44 pm')>
+>
+<[13]<type="cssIcon">
+<name="materialicons">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('19/06/2017 02:25:08 58 am')>
 >
 >
