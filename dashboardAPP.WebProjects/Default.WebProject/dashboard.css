@@ -38,3 +38,23 @@
 	border-bottom-width: 1px; 
 	border-bottom-color: #888;
 }
+.selectYearListItem, .selectYearListItemSelected {
+    font-size: 16px;
+    padding: 14px;
+    border-bottom: 1px solid #e6e6e6;
+    background: #e6e6e6;
+    cursor: default;
+    outline: none;
+	color: #888;
+	text-align: center;
+}
+.selectYearListItemSelected {
+	border: none;
+	background-color: #fff;
+	font-weight:bold;
+}
+.frameLabel {
+    color: #aaa;
+    font-size: 14px;
+    font-weight: bold;
+{

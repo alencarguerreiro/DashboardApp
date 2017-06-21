@@ -6,17 +6,17 @@
 <[2]<type="WebComponent">
 <name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboardapp.a5wcmp}">
 <target_folder="c:\a5webroot\app">
-<timestamp=CTODT('19/06/2017 02:25:08 48 am')>
+<timestamp=CTODT('21/06/2017 10:21:06 90 pm')>
 >
 <[3]<type="file">
 <name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\dashboard.css}">
 <target_folder="c:\a5webroot\app">
-<timestamp=CTODT('17/06/2017 04:41:54 73 pm')>
+<timestamp=CTODT('21/06/2017 10:19:09 49 pm')>
 >
 <[4]<type="css">
 <name="a5system">
 <target_folder="c:\a5webroot\app">
-<timestamp=CTODT('19/06/2017 02:25:08 52 am')>
+<timestamp=CTODT('21/06/2017 10:21:06 95 pm')>
 >
 <[5]<type="css">
 <name="ios7">
@@ -61,6 +61,11 @@
 <[13]<type="cssIcon">
 <name="materialicons">
 <target_folder="c:\a5webroot\app">
-<timestamp=CTODT('19/06/2017 02:25:08 58 am')>
+<timestamp=CTODT('21/06/2017 10:21:07 01 pm')>
+>
+<[14]<type="file">
+<name="{c:\alphaprojects\dashboardapp\dashboardapp.webprojects\default.webproject\g-logook.jpg}">
+<target_folder="c:\a5webroot\app">
+<timestamp=CTODT('21/06/2017 09:14:48 36 pm')>
 >
 >
